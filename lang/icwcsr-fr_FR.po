@@ -1,0 +1,659 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: icwcsr\n"
+"POT-Creation-Date: 2021-02-17 23:28-0500\n"
+"PO-Revision-Date: 2021-02-17 23:36-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: core/bootstrap.php:56
+msgid "Plugin aborted. Woocommerce is missing or inactive."
+msgstr "Plugin a avorté. Woocommerce est manquant ou inactif."
+
+#: core/bootstrap.php:134 core/src/views/admin/loader.php:104
+msgid "Stock Tracking for Woocommerce"
+msgstr "Suivi des stocks pour Woocommerce"
+
+#: core/src/hooks/reporter.php:28 core/src/hooks/reporter.php:156
+#: core/src/hooks/reporter.php:157 core/src/views/admin/pages/about.php:86
+msgid "About & Help"
+msgstr "À propos et aide"
+
+#: core/src/hooks/reporter.php:105
+msgid "Stock Tracking & Reporting for Woocommerce"
+msgstr "Suivi des stocks pour Woocommerce"
+
+#: core/src/hooks/reporter.php:106
+msgid "Stock Tracking"
+msgstr "Suivi des stocks"
+
+#: core/src/hooks/reporter.php:120 core/src/hooks/reporter.php:121
+msgid "Add Transaction"
+msgstr "Ajouter une transaction"
+
+#: core/src/hooks/reporter.php:129 core/src/hooks/reporter.php:130
+#: core/src/views/admin/pages/delete.php:26
+#: premium/src/views/admin/pages/delete.php:42
+msgid "Delete Transaction"
+msgstr "Supprimer la transaction"
+
+#: core/src/hooks/reporter.php:138 core/src/hooks/reporter.php:139
+#: core/src/views/admin/pages/reports.php:25
+#: premium/src/views/admin/pages/reports.php:35
+msgid "Reports"
+msgstr "Rapports"
+
+#: core/src/hooks/reporter.php:147 core/src/hooks/reporter.php:148
+#: core/src/views/admin/pages/settings.php:37
+msgid "Settings"
+msgstr "Paramètres"
+
+#: core/src/services/activation.php:106
+msgid "Balance on activation."
+msgstr "Solde à l'activation."
+
+#: core/src/services/activation.php:129
+msgid "Activation adjustment."
+msgstr "Réglage de l'activation."
+
+#: core/src/services/inventory.php:37
+msgid "Sale."
+msgstr "Vente."
+
+#: core/src/services/inventory.php:38
+msgid "Updated from dashboard."
+msgstr "Mis à jour à partir du tableau de bord."
+
+#: core/src/services/translations.php:21
+msgid "No transactions found"
+msgstr "Aucune transaction trouvée"
+
+#: core/src/services/translations.php:22
+msgid "Only manual transactions"
+msgstr "Seulement les transactions manuelles"
+
+#: core/src/services/translations.php:24
+msgid "Update inventory in Woocommerce"
+msgstr "Mettre à jour l'inventaire dans Woocommerce"
+
+#: core/src/services/translations.php:28
+msgid "Date"
+msgstr "Date"
+
+#: core/src/services/translations.php:30
+msgid "Change"
+msgstr "Variation"
+
+#: core/src/services/translations.php:31
+msgid "Email"
+msgstr "Courriel"
+
+#: core/src/services/translations.php:32
+msgid "End"
+msgstr "Fin"
+
+#: core/src/services/translations.php:33
+msgid "ID"
+msgstr "ID"
+
+#: core/src/services/translations.php:34
+msgid "Note"
+msgstr "Note"
+
+#: core/src/services/translations.php:35
+msgid "Order"
+msgstr "Ordre"
+
+#: core/src/services/translations.php:36
+msgid "Product"
+msgstr "Produit"
+
+#: core/src/services/translations.php:37
+msgid "Product Name"
+msgstr "Nom de produit"
+
+#: core/src/services/translations.php:38
+msgid "Product & SKU"
+msgstr "Produit et SKU"
+
+#: core/src/services/translations.php:39
+msgid "Product SKU"
+msgstr "SKU du produit"
+
+#: core/src/services/translations.php:40
+msgid "Result"
+msgstr "Résultat"
+
+#: core/src/services/translations.php:41
+msgid "Results"
+msgstr "Résultats"
+
+#: core/src/services/translations.php:42
+msgid "SKU"
+msgstr "SKU"
+
+#: core/src/services/translations.php:43
+msgid "Start"
+msgstr "Début"
+
+#: core/src/services/translations.php:44
+msgid "Transaction"
+msgstr "Transaction"
+
+#: core/src/services/translations.php:45
+msgid "Transactions"
+msgstr "Transactions"
+
+#: core/src/services/translations.php:46
+msgid "Balances"
+msgstr "Bilans"
+
+#: core/src/services/translations.php:47
+msgid "User"
+msgstr "Compte"
+
+#: core/src/services/translations.php:48
+msgid "Customer"
+msgstr "Client(e)"
+
+#: core/src/services/translations.php:49
+msgid "Format"
+msgstr "Format"
+
+#: core/src/services/translations.php:51
+msgid "Navigation"
+msgstr "Navigation"
+
+#: core/src/services/translations.php:52
+msgid "Sort By"
+msgstr "Trier par"
+
+#: core/src/services/translations.php:53
+msgid "Ascending"
+msgstr "Ordre croissant"
+
+#: core/src/services/translations.php:54
+msgid "Descending"
+msgstr "Ordre descendant"
+
+#: core/src/services/translations.php:55
+msgid "Increase"
+msgstr "Augmenter"
+
+#: core/src/services/translations.php:56
+msgid "Decrease"
+msgstr "Diminution"
+
+#: core/src/services/translations.php:58
+msgid "Submit"
+msgstr "Soumettre"
+
+#: core/src/services/translations.php:59
+msgid "Add"
+msgstr "Ajouter"
+
+#: core/src/services/translations.php:60
+msgid "Update"
+msgstr "Mettre à jour"
+
+#: core/src/services/translations.php:61
+msgid "Edit"
+msgstr "Éditer"
+
+#: core/src/services/translations.php:62
+msgid "Delete"
+msgstr "Effacer"
+
+#: core/src/services/translations.php:63
+msgid "Search"
+msgstr "Chercher"
+
+#: core/src/services/translations.php:64
+msgid "Reset"
+msgstr "Réinitialisation"
+
+#: core/src/services/translations.php:65
+msgid "Back"
+msgstr "Retourner"
+
+#: core/src/services/translations.php:66
+msgid "Options"
+msgstr "Options"
+
+#: core/src/services/translations.php:67
+msgid "After"
+msgstr "Après"
+
+#: core/src/services/translations.php:68
+msgid "Before"
+msgstr "Avant"
+
+#: core/src/views/admin/pages/about.php:25
+#, php-format
+msgid ""
+"<a class=\"navigation_item\" name=\"licensing\"><h3>Plugin Licensing</h3></"
+"a>\n"
+" <div class=\"licensing\"><p>The plugin licensing details can be found on "
+"this <a href=\"%s\">page</a>.</p></div>"
+msgstr ""
+"<a class=\"navigation_item\" name=\"licensing\"><h3>Licence de plug-in</h3></"
+"a>\n"
+" <div class=\"licensing\"><p>Les détails de la licence du plugin peuvent "
+"être trouvés sur cette <a href=\"%s\">page</a>.</p></div>"
+
+#: core/src/views/admin/pages/about.php:29
+msgid ""
+"<a class=\"navigation_item\" name=\"about_plugin\"><h3>About This Plugin</"
+"h3></a>\n"
+"<div class=\"introduction\">\n"
+"  <p>This plugin gives you the ability to fully track all the inventory "
+"changes that occur with the products in your Woocommerce store.</p>\n"
+"</div>\n"
+"<div class=\"features\">\n"
+"  <p><b>Core version features include:</b></p>\n"
+"  <ul class=\"free\">\n"
+"    <li>Viewing the tracked sales, refunds and product inventory increases "
+"and decreases in the products pages.</li>\n"
+"  </ul>\n"
+"  <p><b>Premium add-on features include:</b></p>\n"
+"  <ul class=\"paid\">\n"
+"    <li>Searching and filtering the tracked transactions by date, product "
+"name, sku, customer email, and order numbers.</li>\n"
+"    <li>Adding manual transactions for offline sales while keeping the "
+"product inventory levels synchronised.</li>\n"
+"    <li>Generating a monthly report of transactions including the starting "
+"and ending balances of each product.</li>\n"
+"    <li>Printing the reports or exporting them as CSV or TSV.</li>\n"
+"  </ul>\n"
+"  <p><b>Available in the following languages:</b></p>\n"
+"  <ul class=\"translations\">\n"
+"    <li>French</li>\n"
+"  </ul>\n"
+"</div>"
+msgstr ""
+"<a class=\"navigation_item\" name=\"about_plugin\"> <h3> À propos de ce plug-"
+"in </h3> </a> \n"
+"<div class=\"introduction\"> \n"
+"  <p> Ce plugin vous permet de suivre complètement toutes les modifications "
+"d'inventaire qui se produisent avec les produits de votre boutique "
+"Woocommerce. </p> \n"
+"</div> \n"
+"<div class=\"features\"> \n"
+"  <p> <b>Les fonctionnalités de la version principale incluent: </b> </p> \n"
+"  <ul class=\"free\"> \n"
+"    <li> Affichage des ventes, des remboursements et des augmentations et "
+"diminutions des stocks de produits suivis dans les pages produits. </li> \n"
+"  </ul> \n"
+"  <p> <b>Les fonctionnalités complémentaires premium incluent: </b> </p> \n"
+"  <ul class=\"paid\"> \n"
+"    <li> Recherche et filtrage des transactions suivies par date, nom de "
+"produit, référence, adresse e-mail du client et numéros de commande. </li>\n"
+"    <li> Ajout de transactions manuelles pour les ventes hors ligne tout en "
+"synchronisant les niveaux d'inventaire des produits. </li> \n"
+"    <li> Génération d'un rapport mensuel des transactions comprenant les "
+"soldes de début et de fin de chaque produit. </li> \n"
+"    <li> Imprimer les rapports ou les exporter au format CSV ou TSV. </li> \n"
+"  </ul>\n"
+"  <p> <b> Disponible dans les langues suivantes: </b> </p> \n"
+"  <ul class=\"translations\"> \n"
+"    <li> Français </li>\n"
+"  </ul> \n"
+"</div>"
+
+#: core/src/views/admin/pages/about.php:52
+msgid ""
+"<a class=\"navigation_item\" name=\"usage\"><h3> Plugin Usage </h3></a>\n"
+"<div class=\"notes\">\n"
+"  <p>Some notes to keep in mind with using this plugin:</p>\n"
+"  <ul class=\"\">\n"
+"    <li>This plugin can only track the transactions that happen when it is "
+"active.</li>\n"
+"    <li>Upon activation, it will check if there are differences between its "
+"internal balances and the product balances and will make adjustments if "
+"there are any.</li>\n"
+"    <li>Previous transactions, sales and orders cannot be tracked. Upon "
+"installation and activation, the transactions page will display a notice "
+"that no transactions have yet been recorded.</li>\n"
+"    <li>Transactions that have been made in Woocommerce (such as sales, "
+"cancellations, quantity changes, etc) cannot be edited or deleted except for "
+"the note field.</li>\n"
+"  </ul>\n"
+"</div>"
+msgstr ""
+"<a class=\"navigation_item\" name=\"usage\"> <h3> Utilisation du plug-in </"
+"h3> </a> \n"
+"<div class=\"notes\"> \n"
+"   <p> Quelques notes à garder à l'esprit lors de l'utilisation de ce "
+"plugin: </p> \n"
+"   <ul class=\"\"> \n"
+"     <li> Ce plug-in ne peut suivre que les transactions qui se produisent "
+"lorsqu'il est actif. </li> \n"
+"     <li> Lors de l'activation, il vérifiera s'il existe des différences "
+"entre ses soldes internes et les soldes de produits et effectuera des "
+"ajustements s'il y en a. </li> \n"
+"     <li> Les transactions, ventes et commandes précédentes ne peuvent pas "
+"être suivies. Lors de l'installation et de l'activation, la page des "
+"transactions affichera un avis indiquant qu'aucune transaction n'a encore "
+"été enregistrée. </li> \n"
+"     <li> Les transactions qui ont été effectuées dans Woocommerce (telles "
+"que les ventes, les annulations, les changements de quantité, etc.) ne "
+"peuvent pas être modifiées ou supprimées à l'exception du champ de note. </"
+"li> \n"
+"   </ul> \n"
+"</div>"
+
+#: core/src/views/admin/pages/about.php:63
+msgid "About Us "
+msgstr "À propos et aide "
+
+#: core/src/views/admin/pages/about.php:65
+msgid ""
+"<p><a href='https://innocow.com' target='_blank'>Innocow</a> is a boutique "
+"software and web development company based in Montréal, Canada.<p>"
+msgstr ""
+"<p> <a href='https://innocow.com' target='_blank'> Innocow </a> est une "
+"société de développement de logiciels et de sites Web basée à Montréal, au "
+"Canada. <p>"
+
+#: core/src/views/admin/pages/about.php:68
+#, php-format
+msgid ""
+"<p><b>If you found this plugin useful please make sure you support us by "
+"buying the premium add-on.</b></p><p><a href='%s' target='_blank'>Upgrade "
+"your plugin &rarr;</a></p>"
+msgstr ""
+"<p> <b> Si vous avez trouvé ce plugin utile, assurez-vous de nous soutenir "
+"en achetant l'add-on premium.</b> </p> <p> <a href='%s' target='_blank'> "
+"Mettez à jour votre plugin &rarr; </a> </p>"
+
+#: core/src/views/admin/pages/about.php:71
+msgid ""
+"<p><b>Thanks for supporting this plugin and purchasing the professional "
+"version!</b></p>"
+msgstr ""
+"<p> <b> Merci d'avoir soutenu ce plugin et d'avoir acheté la version "
+"professionnelle! </b> </p>"
+
+#: core/src/views/admin/pages/about.php:74
+msgid ""
+"<a class=\"navigation_item\" name=\"usage\"><h3> Contact </h3></a>\n"
+"<div class=\"contact\">\n"
+"  <p>If you have any questions or comments, check out our <a href=\"https://"
+"innocow.com\" target=\"_blank\">website</a>.</p>\n"
+"  <p>If you think you've discovered a bug, report it at <a href=\"https://"
+"innocow.com/contact\" target=\"_blank\">our bugs page.</a>\n"
+"</div>"
+msgstr ""
+"<a class=\"navigation_item\" name=\"usage\"><h3> Contactez-nous </h3></a>\n"
+"<div class=\"contact\">\n"
+"   <p> Si vous avez des questions ou des commentaires, consultez notre <a "
+"href=\"https://innocow.com\" target=\"_blank\"> site Web </a></p> \n"
+"   <p> Si vous pensez avoir découvert un bogue, signalez-le sur <a href="
+"\"https://innocow.com/software/bugs\" target=\"_blank\"> notre page de "
+"bogues. </a>\n"
+"</div>"
+
+#: core/src/views/admin/pages/about.php:82
+#: core/src/views/admin/pages/search.php:26
+#: premium/src/views/admin/pages/addedit.php:26
+#: premium/src/views/admin/pages/delete.php:27
+msgid "Page is unavailable. Unexpected error with page initialisation."
+msgstr ""
+"La page n'est pas disponible. Erreur inattendue lors de l'initialisation de "
+"la page."
+
+#: core/src/views/admin/pages/addedit.php:25
+#: premium/src/views/admin/pages/addedit.php:53
+msgid "Add / Edit Transaction"
+msgstr "Ajouter / modifier une transaction"
+
+#: core/src/views/admin/pages/addedit.php:27
+#: core/src/views/admin/pages/delete.php:28
+#: core/src/views/admin/pages/reports.php:27
+#: core/src/views/admin/pages/search_filter.php:26
+#, php-format
+msgid ""
+"<p>This feature is available in the premium add-on.</p><p><a href='%s' "
+"target='_blank'>Upgrade your plugin &rarr;</a></p>"
+msgstr ""
+"<p> Cette fonctionnalité est disponible dans le module complémentaire "
+"premium. </p> <p> <a href='%s' target='_blank'> Mettez à niveau votre plugin "
+"&rarr; </a> </p>"
+
+#: core/src/views/admin/pages/search.php:30
+msgid ""
+"Transactions log is unavailable. Unexpected error with transactions query."
+msgstr ""
+"Le journal des transactions n'est pas disponible. Erreur inattendue avec la "
+"requête de transactions."
+
+#: core/src/views/admin/pages/search.php:33
+#: premium/src/views/admin/pages/search_filter.php:25
+msgid "Filtering Options"
+msgstr "Options de filtrage"
+
+#: core/src/views/admin/pages/search.php:35
+msgid ""
+"Note that this plugin can only keep track of transactions made after it has "
+"been installed and activated."
+msgstr ""
+"Notez que ce plugin ne peut garder une trace des transactions effectuées "
+"qu'après son installation et son activation."
+
+#: core/src/views/admin/pages/search.php:38
+msgid "Don't show again"
+msgstr "Ne plus montrer"
+
+#: core/src/views/admin/pages/settings.php:26
+#: premium/src/views/admin/pages/reports.php:28
+msgid "Page is unavailable. Unexpected error with page initialisation"
+msgstr ""
+"La page n'est pas disponible. Erreur inattendue lors de l'initialisation de "
+"la page"
+
+#: core/src/views/admin/pages/settings.php:30
+msgid "Settings update failed due to an unexpected error"
+msgstr "La suppression a échoué en raison d'une erreur inattendue"
+
+#: core/src/views/admin/pages/settings.php:34
+msgid "Display Columns in Transactions Tables"
+msgstr "Afficher les colonnes dans les tables de transactions"
+
+#: core/src/views/admin/pages/settings.php:38
+msgid "Settings updated"
+msgstr "Paramètres mis à jour"
+
+#: core/stock-tracking-reporting-for-woocommerce.php:24
+msgid "A plugin to track all stock/inventory changes with your store."
+msgstr ""
+"Un plugin pour suivre tous les changements de stock / inventaire avec votre "
+"magasin."
+
+#: premium/src/hooks.php:106 premium/src/hooks.php:107
+#: premium/src/hooks.php:130
+msgid "Licensing"
+msgstr "Licence"
+
+#: premium/src/hooks.php:146
+#: premium/stock-tracking-reporting-for-woocommerce-premium.php:24
+msgid "Stock Tracking & Reporting for Woocommerce (Premium Add-On)"
+msgstr "Suivi des stocks pour Woocommerce (module premium)"
+
+#: premium/src/hooks.php:147
+#, php-format
+msgid ""
+"Don't forget to <a href='%s'>enter your license and activate</a> your plugin!"
+msgstr ""
+"N'oubliez pas de <a href='%s'> entrer votre licence et activer </a> votre "
+"plugin!"
+
+#: premium/src/views/admin/pages/addedit.php:30
+#: premium/src/views/admin/pages/delete.php:31
+msgid "Loading transaction failed due to an unexpected error."
+msgstr ""
+"Le chargement de la transaction a échoué en raison d'une erreur inattendue."
+
+#: premium/src/views/admin/pages/addedit.php:34
+msgid "Updating transaction failed due to an unexpected error."
+msgstr ""
+"La mise à jour de la transaction a échoué en raison d'une erreur inattendue."
+
+#: premium/src/views/admin/pages/addedit.php:38
+msgid "Creating transaction failed due to an unexpected error."
+msgstr ""
+"La création de la transaction a échoué en raison d'une erreur inattendue."
+
+#: premium/src/views/admin/pages/addedit.php:42
+msgid "Transaction created."
+msgstr "Transaction créée."
+
+#: premium/src/views/admin/pages/addedit.php:46
+msgid "Transaction has no updates to be made."
+msgstr ""
+"La transaction n'a aucune mise à jour à effectuer.La transaction n'a aucune "
+"mise à jour à effectuer."
+
+#: premium/src/views/admin/pages/addedit.php:50
+msgid "Transaction updated."
+msgstr "Transaction mise à jour."
+
+#: premium/src/views/admin/pages/delete.php:35
+msgid "Delete failed due to an unexpected error."
+msgstr "La suppression a échoué en raison d'une erreur inattendue."
+
+#: premium/src/views/admin/pages/delete.php:39
+msgid "Transaction deleted."
+msgstr "Transaction supprimée."
+
+#: premium/src/views/admin/pages/license.php:25
+msgid "Unlicensed"
+msgstr "Sans licence"
+
+#: premium/src/views/admin/pages/license.php:27
+msgid "Activated ${a} on ${b}"
+msgstr "Activé ${a} à ${b}"
+
+#: premium/src/views/admin/pages/license.php:31
+msgid "This key is valid: ${a}. Activations remaining: ${b}"
+msgstr "Cette clé est valide: ${a}. Activations restantes: ${b}"
+
+#: premium/src/views/admin/pages/license.php:34
+msgid "Activated plugin with license ${a} at ${b}."
+msgstr "Plugin activé avec licence ${a} à ${b}."
+
+#: premium/src/views/admin/pages/license.php:36
+msgid "This license key is invalid: ${a}."
+msgstr "Cette clé de licence est invalide: ${a}."
+
+#: premium/src/views/admin/pages/license.php:37
+#: premium/src/views/admin/pages/license.php:38
+msgid "License Status"
+msgstr "Statut de la licence"
+
+#: premium/src/views/admin/pages/license.php:39
+msgid "Validate"
+msgstr "Valider"
+
+#: premium/src/views/admin/pages/license.php:40
+msgid "Activate"
+msgstr "Activer"
+
+#: premium/src/views/admin/pages/license.php:41
+msgid "Activate Plugin"
+msgstr "Activer le plugin"
+
+#: premium/src/views/admin/pages/reports.php:32
+msgid "Cannot create report due to an unexpected error"
+msgstr "Impossible de créer le rapport en raison d'une erreur inattendue"
+
+#: premium/src/views/admin/pages/reports.php:36
+msgid "CSV"
+msgstr "CSV"
+
+#: premium/src/views/admin/pages/reports.php:37
+msgid "Tab Delimited"
+msgstr "Format délimité par tabulation"
+
+#: premium/src/views/admin/pages/reports.php:38
+msgid "Printable HTML"
+msgstr "HTML imprimable"
+
+#: premium/src/views/admin/pages/reports.php:39
+msgid "Summary of Transactions"
+msgstr "Résumé des transactions"
+
+#: premium/src/views/admin/pages/reports.php:40
+msgid "Report created"
+msgstr "Rapport créé"
+
+#: premium/stock-tracking-reporting-for-woocommerce-premium.php:25
+msgid "Extra features for the core Stock Tracking plugin."
+msgstr ""
+"Fonctionnalités supplémentaires pour le plugin principal de suivi des stocks."
+
+#~ msgid "Stock Tracking for Woocommerce (Premium Add-On)"
+#~ msgstr "Suivi des stocks pour Woocommerce (module premium)"
+
+#~ msgid "<p>This feature is available in the premium add-on.</p>"
+#~ msgstr ""
+#~ "<p> Cette fonctionnalité est disponible dans le module complémentaire "
+#~ "premium. </p>"
+
+#, fuzzy
+#~| msgid "<p>This feature is available in the premium add-on.</p>"
+#~ msgid "<p>This feature is available in the premium add-on.</p><p><a href="
+#~ msgstr ""
+#~ "<p> Cette fonctionnalité est disponible dans le module complémentaire "
+#~ "premium. </p>"
+
+#~ msgid ""
+#~ "<a class=\"navigation_item\" name=\"about_us\"><h3> About Us </h3></a>\n"
+#~ "<div class=\"about_us\">\n"
+#~ "  <p>Innocow is a small boutique software and web development company "
+#~ "based in Montréal, Canada. We're enthusiastic about solving problems with "
+#~ "web technology.<p>\n"
+#~ "  <p><b>If you found this plugin useful please make sure you support us "
+#~ "by buying the professional version. If you have already have, thanks for "
+#~ "your support!</b></p>\n"
+#~ "</div>"
+#~ msgstr ""
+#~ "<a class=\"navigation_item\" name=\"about_us\"><h3> À propos de nous </"
+#~ "h3></a>\n"
+#~ "<div class=\"about_us\">\n"
+#~ "<p> Innocow est une petite entreprise de développement de logiciels et de "
+#~ "sites Web basée à Montréal, au Canada. Nous sommes ravis de résoudre les "
+#~ "problèmes liés à la technologie Web. <p> \n"
+#~ "<p> <b> Si vous avez trouvé ce plugin utile, assurez-vous de nous "
+#~ "soutenir en achetant la version professionnelle. Si vous l'avez déjà "
+#~ "fait, merci pour votre soutien! </b> </p> \n"
+#~ "</div>"
+
+#~ msgid ""
+#~ "Transaction likely updated; but, the server response was not recognised."
+#~ msgstr ""
+#~ "Transaction probablement mise à jour; mais, la réponse du serveur n'a pas "
+#~ "été reconnue."
+
+#~ msgid ""
+#~ "Transaction likely created; but, the server response was not recognised."
+#~ msgstr ""
+#~ "Transaction probablement créée; mais, la réponse du serveur n'a pas été "
+#~ "reconnue."
+
+#~ msgid ""
+#~ "Transaction likely deleted; but, the server response was not recognised."
+#~ msgstr ""
+#~ "Transaction probablement supprimée; mais, la réponse du serveur n'a pas "
+#~ "été reconnue."
+
+#~ msgid "Client"
+#~ msgstr "Client"

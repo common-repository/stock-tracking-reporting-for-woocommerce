@@ -1,0 +1,209 @@
+/*****************************
+ ** CSS for table elements.
+ ** Section 1: Table Structure
+ ** Section 2: Display Options
+ ** Section 3: Pagination
+ **/
+
+/*****************************************
+ ** Table Structure
+ ** https://codepen.io/amwill04/pen/QNPpqx
+ **/
+
+.table {
+  display: table;
+  width: 100%;
+  margin: auto 0;
+  border-collapse: separate;
+}
+
+.table.empty {
+  text-align: center;
+}
+
+.table > .header,
+.table > .row {
+  display: table-row;
+}
+
+.table > .header > .value,
+.table > .row > .block {
+  display: table-cell;
+}
+
+.table > .header > .value,
+.table > .row > .block > .cell {
+  padding: 10px 12px;
+}
+
+/** ... hide the mobile table cells **/
+.table > .row > .block > .header { 
+  display: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/** ... formatting **/
+
+  .table { border: 1px solid #ccd0d4; background: #ffffff; }
+  
+  .table > .header > .value { border-bottom: 1px solid #ccd0d4; font-size: 1.1em; }
+  .table > .row:nth-child(2n+2) { background: #f9f9f9; }
+  .table > .row:nth-child(2n+3) { background: #ffffff; }
+  .table > .row > .block > .cell { text-align: left; color: #5b5b5b; }
+  .table > .row > .block > .cell a { text-decoration: none; }
+  .table > .row > .block > .cell.change .change-up { color: #b8860b; }
+  .table > .row > .block > .cell.change .change-down { color: #2e8b57; }
+  .table > .row > .block > .cell.edit { text-align: center; }
+  .table > .row > .block > .cell.delete { text-align: center; }
+
+/** Table - Mobile **/
+
+  @media screen and (max-width: 768px) {
+    
+    .table {
+      display: block;
+      background: unset;
+    }
+
+    .table.empty {
+      display: table;
+    }
+
+    .table > .header {
+      display: none;
+    }  
+
+    .table > .header > .value,
+    .table > .row > .block > .header {
+      display: table-cell;
+    }
+
+    .table > .header > .value {
+      width: 35%;
+      max-width: 35%;
+    }
+
+    .table > .row {
+      display: table;
+      width: 100%;
+      border-collapse: separate;
+      padding: 20px 0px;
+      margin: 5% auto 0;
+    }
+
+    .table > .row > .block {
+      display: table-row;
+      max-width: 40%;
+    }
+
+    /** ... formatting **/
+
+      .table { border: 0px; }
+      .table.empty { border: 1px solid #ccd0d4; background: #ffffff; }
+      .table > .row { border: 1px solid #ccd0d4; }
+      .table > .row:nth-child(2n+2) { background: #ffffff; }
+      .table > .row:nth-child(2n+3) { background: #ffffff; }
+      .table > .row > .block > .header { font-weight: bold; text-align: right; }
+      .table > .row > .block > .cell.edit { text-align: left; }
+      .table > .row > .block > .cell.delete { text-align: left; }
+
+  }
+
+/** Table - Print **/
+
+  @page {
+    margin: 20mm 10mm;
+  }
+
+  @media print {
+
+    header, footer, aside, form {
+        display: none;
+    }
+
+    body {
+      font-family: "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+      font-size: 0.5em;
+    }
+
+    .description {
+      display: table;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+
+    .description > div.summary,
+    .description > div.logo {
+      display: table-cell;
+      vertical-align: middle;
+    }
+ 
+    .description > div.logo > img.logo {
+      object-fit: cover;
+      min-height: 100px;
+      max-height: 150px;
+      padding: 5px;
+      float: right;
+    }
+
+    .balances,
+    .transactions {
+      marign-top: 10px;
+      margin-bottom: 20px;
+    }
+
+    .balances {
+      width: 65%;
+    }
+
+    /** ... formatting **/
+    body { background-color: #ffffff; color: #000000; }
+    .description > div.summary > p.subtitle { font-weight: bold; margin-bottom: 20px; }
+    .table > .header { font-weight: bold; }
+    .table .value { color: #000000; }
+    .table .value a { color: #000000; }
+    .table > .row > .block > .cell.change .change-up { color: #000000; }
+    .table > .row > .block > .cell.change .change-down { color: #000000; }
+    .table .dashicons.dashicons-arrow-up:before { content: "+"; }
+    .table .dashicons.dashicons-arrow-down:before { content: "-"; }
+
+  }
+
+/*****************************************
+ ** Display Options
+ **/
+
+.tablenav .tablenav-displayopts {
+  display: inline;
+}
+
+/*****************************************
+ ** Pagination
+ **/
+
+.tablenav .tablenav-pages .button-page  {
+  margin-right: 4px;
+}
+
+.tablenav .tablenav-pages .button-page.last-page {
+  margin-right: 0px;
+}
+
+.tablenav .tablenav-pages .tablenav-paging-text {
+  display: contents;
+}
+
+.tablenav .tablenav-pages .total-pages {
+  word-spacing: 2px;
+  margin: 0px 5px;
+}
+
+
+@media screen and (max-width: 768px) {
+
+  .tablenav .tablenav-pages {
+    margin-top: 20px;
+  }
+
+}
